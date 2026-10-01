@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cyber_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◢ SHIZUKU ◣"
+        android:textColor="@color/accent_primary"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME BOOSTER"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:letterSpacing="0.3"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="v2.5.0-remix"
+        android:textColor="@color/text_dim"
+        android:textSize="12sp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cyber_panel"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="// CREATIVE DEVELOPER"
+            android:textColor="@color/text_dim"
+            android:textSize="10sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✦ Dominic"
+            android:textColor="@color/accent_rose"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Concept • Design • Testing"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cyber_panel"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="// POWERED BY"
+            android:textColor="@color/text_dim"
+            android:textSize="10sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shizuku API • Android Shell"
+            android:textColor="@color/accent_primary"
+            android:textSize="13sp"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One tap. Zero Termux. Pure boost."
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cyber_panel"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="// CONTACT"
+            android:textColor="@color/text_dim"
+            android:textSize="10sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvContactTelegram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telegram Bot"
+            android:textColor="@color/accent_primary"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvContactGithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GitHub"
+            android:textColor="@color/accent_primary"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvContactWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Website"
+            android:textColor="@color/accent_primary"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+    </LinearLayout>
+</LinearLayout>
