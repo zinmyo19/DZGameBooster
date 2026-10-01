@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AUTO-GENERATED stubs for attrs referenced by libraries but not defined in any AAR -->
+<resources>
+    <attr name="drawerLayoutStyle" format="reference" />
+</resources>
