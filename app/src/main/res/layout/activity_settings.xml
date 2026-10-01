@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cyber_bg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="◢ BOOST CONFIGURATION ◣"
+            android:textColor="@color/accent_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Target Game -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cyber_panel"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="// TARGET GAME PACKAGE"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etTargetGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="jp.konami.pesam"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_dim"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:background="@drawable/cyber_btn_secondary"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <!-- Kill List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cyber_panel"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="// APPS TO TERMINATE ON BOOST"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8dp" />
+
+            <Switch
+                android:id="@+id/swKillFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+
+            <Switch
+                android:id="@+id/swKillMessenger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messenger"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+
+            <Switch
+                android:id="@+id/swKillInstagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instagram"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+
+            <Switch
+                android:id="@+id/swKillTiktok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TikTok"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+
+            <Switch
+                android:id="@+id/swKillChrome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chrome"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- System Tweaks -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cyber_panel"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="// SYSTEM TWEAKS"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8dp" />
+
+            <Switch
+                android:id="@+id/swDisableAnim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disable animations (0.0x)"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+
+            <Switch
+                android:id="@+id/swDnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do Not Disturb mode"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- Gaming Response -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cyber_panel"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="// TOUCH RESPONSE"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8dp" />
+
+            <Switch
+                android:id="@+id/swTouchBoost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Touch boost (max sensitivity + 300ms tap)"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- Network / Ping -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cyber_panel"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="// NETWORK / PING STABILIZATION"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8dp" />
+
+            <Switch
+                android:id="@+id/swNetStable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anti ping-spike (Cloudflare DNS, no WiFi scan throttle, data always-on)"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- POCO F5 Pro Beast -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cyber_panel"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="// POCO F5 PRO BEAST MODE"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8dp" />
+
+            <Switch
+                android:id="@+id/swPocoBeast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Near-root tuning (120Hz lock, Doze off, game driver, no battery-throttle)"
+                android:textColor="@color/text_primary"
+                android:fontFamily="monospace"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="SAVE CONFIGURATION"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@drawable/cyber_btn_boost"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+</ScrollView>
