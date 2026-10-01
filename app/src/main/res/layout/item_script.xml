@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cyber_panel"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvScriptName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="script.sh"
+            android:textColor="@color/accent_primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/tvScriptStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="○ ready"
+            android:textColor="@color/text_dim"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRunScript"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="RUN"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/cyber_btn_boost"
+        android:fontFamily="monospace"
+        android:layout_marginEnd="6dp" />
+
+    <Button
+        android:id="@+id/btnDeleteScript"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="X"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_red"
+        android:background="@drawable/cyber_btn_secondary"
+        android:fontFamily="monospace" />
+</LinearLayout>
