@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- soft glow -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#409D8CFF" />
+        </shape>
+    </item>
+    <!-- dot body -->
+    <item android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/accent_violet" />
+            <stroke android:width="1.5dp" android:color="@color/accent_primary" />
+        </shape>
+    </item>
+</layer-list>
