@@ -1,4 +1,4 @@
-# Shizuku Game Booster - Android Native App
+# DZGameBooster - Android Native App
 
 A native Android application built with Kotlin that uses the official **Rikka Shizuku API** to execute rootless ADB commands directly from Android.
 
